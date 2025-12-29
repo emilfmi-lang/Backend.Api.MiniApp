@@ -14,6 +14,8 @@ public static class ServiceRegistration
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
         services.AddScoped<IEventService, EventService>();
+        services.AddScoped<IOrganizerService, OrganizerService>();
+        services.AddScoped<ITicketService,TicketService >();
         services.AddAutoMapper(opt =>
         {
             opt.AddProfile<MapProfile>();
