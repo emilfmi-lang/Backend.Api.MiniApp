@@ -9,4 +9,5 @@ public interface IOrganizerService
     Task CreateAsync(OrganizerCreateDto organizerCreateDto);
     Task UploadBannerAsync(int eventId, IFormFile file);
     Task<List<EventReturnDto>> GetEventsByOrganizerIdAsync(int organizerId);
+    Task Delete(int organizerId);
 }

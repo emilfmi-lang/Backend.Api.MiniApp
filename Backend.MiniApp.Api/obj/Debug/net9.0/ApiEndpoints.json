@@ -27,6 +27,27 @@
   },
   {
     "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
+    "Method": "UploadBannerr",
+    "RelativePath": "api/Events/{eventId}/banner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
     "Method": "GetOrganizerByEvent",
     "RelativePath": "api/Events/{eventId}/organizer",
     "HttpMethod": "GET",
@@ -52,6 +73,27 @@
       {
         "Name": "eventId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
+    "Method": "CreateTicketForEvent",
+    "RelativePath": "api/Events/{eventId}/tickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Backend.MiniApp.Api.Dtos.Tickets.TicketCreateDto",
         "IsRequired": true
       }
     ],
@@ -121,6 +163,38 @@
         "Name": "File",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.OrganizersController",
+    "Method": "DeleteOrganizer",
+    "RelativePath": "api/Organizers/{organizerId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.OrganizersController",
+    "Method": "GetEventsByOrganizer",
+    "RelativePath": "api/Organizers/{organizerId}/events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

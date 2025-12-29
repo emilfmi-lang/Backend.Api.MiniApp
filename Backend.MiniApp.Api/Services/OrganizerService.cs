@@ -64,4 +64,12 @@ public class OrganizerService(AppDbContext appDbContext, IMapper mapper, IWebHos
         organizer.LogoUrl = $"/images/organizers/{fileName}";
         await appDbContext.SaveChangesAsync();
     }
+    public async Task Delete(int organizerId)
+    {
+        var organizer = await appDbContext.Organizers.FindAsync(organizerId);
+        if (organizer == null)
+            throw new Exception("Organizer not found");
+        appDbContext.Organizers.Remove(organizer);
+        await appDbContext.SaveChangesAsync();
+    }
 }

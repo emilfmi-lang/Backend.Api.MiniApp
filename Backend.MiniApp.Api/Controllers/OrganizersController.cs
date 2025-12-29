@@ -1,7 +1,5 @@
 ﻿using Backend.MiniApp.Api.Dtos.Organizers;
 using Backend.MiniApp.Api.Interfaces;
-using Backend.MiniApp.Api.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.MiniApp.Api.Controllers;
@@ -33,5 +31,11 @@ public class OrganizersController(IOrganizerService service) : ControllerBase
     {
         var events = await service.GetEventsByOrganizerIdAsync(organizerId);
         return Ok(events);
+    }
+    [HttpDelete("{organizerId}")]
+    public async Task<IActionResult> DeleteOrganizer(int organizerId)
+    {
+        await service.Delete(organizerId);
+        return Ok("Organizer deleted successfully");
     }
 }
