@@ -3,7 +3,6 @@ using Backend.MiniApp.Api.Interfaces;
 using Backend.MiniApp.Api.Profiles;
 using Backend.MiniApp.Api.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace Backend.MiniApp.Api;
 

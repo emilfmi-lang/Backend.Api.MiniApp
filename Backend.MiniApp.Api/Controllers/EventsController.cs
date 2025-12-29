@@ -21,5 +21,11 @@ namespace Backend.MiniApp.Api.Controllers
             await service.CreateAsync(eventCreateDto);
             return Ok("Event created successfully");
         }
+        [HttpPost("{id}/banner")]
+        public async Task<IActionResult> UploadBanner(int id, [FromForm] UploadEventBannerDto dto)
+        {
+            await service.UploadBannerAsync(id, dto.File);
+            return Ok("Banner uploaded successfully");
+        }
     }
 }

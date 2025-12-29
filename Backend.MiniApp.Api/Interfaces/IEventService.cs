@@ -6,4 +6,5 @@ public interface IEventService
 {
     Task<List<EventReturnDto>> GetAllAsync();
     Task CreateAsync(EventCreateDto eventCreateDto);
+    Task UploadBannerAsync(int eventId, IFormFile file);
 }
