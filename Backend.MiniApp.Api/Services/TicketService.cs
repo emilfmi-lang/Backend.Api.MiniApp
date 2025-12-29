@@ -21,4 +21,5 @@ public class TicketService(AppDbContext appDbContext,IMapper mapper): ITicketSer
         await appDbContext.Tickets.AddAsync(newTicket);
         await appDbContext.SaveChangesAsync();
     }
+   
 }

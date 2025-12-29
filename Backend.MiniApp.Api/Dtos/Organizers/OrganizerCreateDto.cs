@@ -15,5 +15,5 @@ public class UploadOrganizerLogoDto
     [Required]
     [FileType(new string[] { ".jpg", ".jpeg", ".png" })]
     [FileLength(2 * 1024 * 1024)] // 2 MB
-    public string LogoUrl { get; set; }
+    public IFormFile File { get; set; }
 }

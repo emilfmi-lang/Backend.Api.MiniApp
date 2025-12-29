@@ -1,4 +1,5 @@
 ﻿using Backend.MiniApp.Api.Dtos.EventDtos;
+using Backend.MiniApp.Api.Dtos.Tickets;
 using Backend.MiniApp.Api.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +26,30 @@ namespace Backend.MiniApp.Api.Controllers
         public async Task<IActionResult> UploadBanner(int id, [FromForm] UploadEventBannerDto dto)
         {
             await service.UploadBannerAsync(id, dto.File);
+            return Ok("Banner uploaded successfully");
+        }
+        [HttpGet("{eventId}/tickets")]
+        public async Task<IActionResult> GetTicketsByEvent(int eventId)
+        {
+            var tickets = await service.GetTicketsByEventIdAsync(eventId);
+            return Ok(tickets);
+        }
+        [HttpGet("{eventId}/organizer")]
+        public async Task<IActionResult> GetOrganizerByEvent(int eventId)
+        {
+            var organizer = await service.GetOrganizerByEventIdAsync(eventId);
+            return Ok(organizer);
+        }
+        [HttpPost("{eventId}/tickets")]
+        public async Task<IActionResult> CreateTicketForEvent(int eventId, [FromBody] TicketCreateDto dto)
+        {
+            var ticket = await service.CreateTicketAsync(eventId, dto);
+            return Ok(ticket);
+        }
+        [HttpPost("{eventId}/banner")]
+        public async Task<IActionResult> UploadBannerr(int eventId, [FromForm] UploadEventBannerDto dto)
+        {
+            await service.UploadBannerrAsync(eventId, dto.File);
             return Ok("Banner uploaded successfully");
         }
     }

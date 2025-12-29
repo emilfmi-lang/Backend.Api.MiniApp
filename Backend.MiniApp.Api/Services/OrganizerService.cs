@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Backend.MiniApp.Api.Data;
+using Backend.MiniApp.Api.Dtos.EventDtos;
 using Backend.MiniApp.Api.Dtos.Organizers;
 using Backend.MiniApp.Api.Interfaces;
 using Backend.MiniApp.Api.Models;
@@ -36,6 +37,31 @@ public class OrganizerService(AppDbContext appDbContext, IMapper mapper, IWebHos
         await file.CopyToAsync(stream);
 
         evnt.BannerImageUrl = $"/images/events/{fileName}";
+        await appDbContext.SaveChangesAsync();
+    }
+    public async Task<List<EventReturnDto>> GetEventsByOrganizerIdAsync(int organizerId)
+    {
+        var events = await appDbContext.Events
+            .Where(e => e.OrganizerId == organizerId)
+            .ToListAsync();
+        return mapper.Map<List<EventReturnDto>>(events);
+    }
+    public async Task UploadLogoAsync(int organizerId, IFormFile file)
+    {
+        var organizer = await appDbContext.Organizers.FindAsync(organizerId);
+        if (organizer == null)
+            throw new Exception("Organizer not found");
+
+        var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+        var folderPath = Path.Combine(env.WebRootPath, "images", "organizers");
+        if (!Directory.Exists(folderPath))
+            Directory.CreateDirectory(folderPath);
+
+        var filePath = Path.Combine(folderPath, fileName);
+        using var stream = new FileStream(filePath, FileMode.Create);
+        await file.CopyToAsync(stream);
+
+        organizer.LogoUrl = $"/images/organizers/{fileName}";
         await appDbContext.SaveChangesAsync();
     }
 }

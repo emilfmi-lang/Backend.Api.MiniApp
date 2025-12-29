@@ -28,4 +28,10 @@ public class OrganizersController(IOrganizerService service) : ControllerBase
         await service.UploadBannerAsync(id, dto.File);
         return Ok("Logo uploaded successfully");
     }
+    [HttpGet("{organizerId}/events")]
+    public async Task<IActionResult> GetEventsByOrganizer(int organizerId)
+    {
+        var events = await service.GetEventsByOrganizerIdAsync(organizerId);
+        return Ok(events);
+    }
 }

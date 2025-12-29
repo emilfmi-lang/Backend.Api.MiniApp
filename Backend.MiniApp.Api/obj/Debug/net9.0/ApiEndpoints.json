@@ -27,6 +27,38 @@
   },
   {
     "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
+    "Method": "GetOrganizerByEvent",
+    "RelativePath": "api/Events/{eventId}/organizer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
+    "Method": "GetTicketsByEvent",
+    "RelativePath": "api/Events/{eventId}/tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
     "Method": "UploadBanner",
     "RelativePath": "api/Events/{id}/banner",
     "HttpMethod": "POST",
@@ -42,6 +74,79 @@
         "Name": "File",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.OrganizersController",
+    "Method": "GetOrganizer",
+    "RelativePath": "api/Organizers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.OrganizersController",
+    "Method": "CreateOrganizer",
+    "RelativePath": "api/Organizers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerCreateDto",
+        "Type": "Backend.MiniApp.Api.Dtos.Organizers.OrganizerCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.OrganizersController",
+    "Method": "UploadLogo",
+    "RelativePath": "api/Organizers/{id}/logo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.TicketsController",
+    "Method": "GetAllTickets",
+    "RelativePath": "api/Tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.TicketsController",
+    "Method": "CreateTicket",
+    "RelativePath": "api/Tickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketCreateDto",
+        "Type": "Backend.MiniApp.Api.Dtos.Tickets.TicketCreateDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
