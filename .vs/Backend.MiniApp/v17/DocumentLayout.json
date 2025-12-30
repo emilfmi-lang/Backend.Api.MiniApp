@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\controllers\\organizerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\controllers\\organizerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\dtos\\organizers\\organizercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\dtos\\organizers\\organizercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,19 +151,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAYwDAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:20:47.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IOrganizerService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
@@ -171,8 +158,7 @@
               "RelativeToolTip": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T13:33:19.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T13:33:19.588Z"
             },
             {
               "$type": "Document",
@@ -200,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrganizerService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Services\\OrganizerService.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Services\\OrganizerService.cs",
@@ -208,12 +194,11 @@
               "RelativeToolTip": "Backend.MiniApp.Api\\Services\\OrganizerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T13:32:54.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T13:32:54.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OrganizerCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Dtos\\Organizers\\OrganizerCreateDto.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Dtos\\Organizers\\OrganizerCreateDto.cs",
@@ -225,32 +210,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrganizersController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\OrganizersController.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Controllers\\OrganizersController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\OrganizersController.cs",
               "RelativeToolTip": "Backend.MiniApp.Api\\Controllers\\OrganizersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T16:08:11.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Services\\EventService.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Services\\EventService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Services\\EventService.cs",
               "RelativeToolTip": "Backend.MiniApp.Api\\Services\\EventService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAtwBwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:08:59.153Z"
+              "WhenOpened": "2025-12-29T12:08:59.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T12:20:47.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Data\\AppDbContext.cs",
@@ -258,8 +256,7 @@
               "RelativeToolTip": "Backend.MiniApp.Api\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T10:41:38.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T10:41:38.091Z"
             },
             {
               "$type": "Document",
