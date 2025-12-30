@@ -6,4 +6,5 @@ public interface ITicketService
 {
     Task<TicketReturnDto> GetAllAsync();
     Task CreateAsync(TicketCreateDto ticketCreateDto);
+    Task Delete(int id);
 }
