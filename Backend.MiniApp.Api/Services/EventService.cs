@@ -79,7 +79,7 @@ public class EventService(AppDbContext appDbContext,IMapper mapper, IWebHostEnvi
         evnt.BannerImageUrl = $"/images/events/{fileName}";
         await appDbContext.SaveChangesAsync();
     }
-    public async Task Dellete(int eventId)
+    public async Task Delete(int eventId)
     {
         var evnt = await appDbContext.Events.FindAsync(eventId);
         if (evnt == null)

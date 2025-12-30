@@ -52,5 +52,11 @@ namespace Backend.MiniApp.Api.Controllers
             await service.UploadBannerrAsync(eventId, dto.File);
             return Ok("Banner uploaded successfully");
         }
+        [HttpDelete("{eventId}")]
+        public async Task<IActionResult> DeleteEvent(int eventId)
+        {
+            await service.Delete(eventId);
+            return Ok("Event deleted successfully");
+        }
     }
 }
