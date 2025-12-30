@@ -1,7 +1,6 @@
 ﻿using Backend.MiniApp.Api.Dtos.EventDtos;
 using Backend.MiniApp.Api.Dtos.Tickets;
 using Backend.MiniApp.Api.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.MiniApp.Api.Controllers

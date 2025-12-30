@@ -21,4 +21,10 @@ public class TicketsController(ITicketService ticketService) : ControllerBase
         await ticketService.CreateAsync(ticketCreateDto);
         return Ok("Ticket created successfully");
     }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteTicket(int id)
+    {
+        await ticketService.Delete(id);
+        return Ok("Ticket deleted successfully");
+    }
 }
