@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/Events/{eventId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
     "Method": "UploadBannerr",
     "RelativePath": "api/Events/{eventId}/banner",
     "HttpMethod": "POST",

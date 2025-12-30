@@ -41,7 +41,7 @@ public class EventService(AppDbContext appDbContext,IMapper mapper, IWebHostEnvi
     }
     public async Task<List<TicketReturnDto>> GetTicketsByEventIdAsync(int eventId)
     {
-        var tickets = await appDbContext.Tickets.Where(x => x.Id == eventId).ToListAsync();
+        var tickets = await appDbContext.Tickets.Where(x => x.EventId == eventId).ToListAsync();
         var result = mapper.Map<List<TicketReturnDto>>(tickets);
         return result;
     }
@@ -71,11 +71,9 @@ public class EventService(AppDbContext appDbContext,IMapper mapper, IWebHostEnvi
         var folderPath = Path.Combine(env.WebRootPath, "images", "events");
         if (!Directory.Exists(folderPath))
             Directory.CreateDirectory(folderPath);
-
         var filePath = Path.Combine(folderPath, fileName);
         using var stream = new FileStream(filePath, FileMode.Create);
         await file.CopyToAsync(stream);
-
         evnt.BannerImageUrl = $"/images/events/{fileName}";
         await appDbContext.SaveChangesAsync();
     }
