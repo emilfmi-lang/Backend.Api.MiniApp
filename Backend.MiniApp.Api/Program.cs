@@ -1,7 +1,4 @@
-
 using Backend.MiniApp.Api;
-using Backend.MiniApp.Api.Data;
-using Microsoft.Extensions.Configuration;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);

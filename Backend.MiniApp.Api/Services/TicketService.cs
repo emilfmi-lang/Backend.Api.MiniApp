@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using Backend.MiniApp.Api.Data;
 using Backend.MiniApp.Api.Dtos.Tickets;
 using Backend.MiniApp.Api.Interfaces;
 using Backend.MiniApp.Api.Models;
 using Backend.MiniApp.Api.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace Backend.MiniApp.Api.Services;
 
