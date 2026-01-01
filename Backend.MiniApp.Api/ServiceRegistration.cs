@@ -5,6 +5,7 @@ using Backend.MiniApp.Api.Profiles;
 using Backend.MiniApp.Api.Repositories.Concretes;
 using Backend.MiniApp.Api.Repositories.Interfaces;
 using Backend.MiniApp.Api.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.MiniApp.Api;
@@ -17,6 +18,16 @@ public static class ServiceRegistration
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
         services.AddScoped<IEventService, EventService>();
+
+        services.AddIdentity<AppUser, IdentityRole>(options =>
+        {
+            options.Password.RequireDigit = true;
+            options.Password.RequireLowercase = true;
+            options.Password.RequireUppercase = true;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequiredLength = 6;
+        }).AddEntityFrameworkStores<AppDbContext>();
+
         services.AddScoped<IOrganizerService, OrganizerService>();
         services.AddScoped<ITicketService,TicketService >();
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
