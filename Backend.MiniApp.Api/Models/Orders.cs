@@ -1,5 +1,7 @@
-﻿namespace Backend.MiniApp.Api.Models;
+﻿using Backend.MiniApp.Api.Models.Common;
 
-public class Orders
+namespace Backend.MiniApp.Api.Models;
+
+public class Orders:BaseEntity
 {
 }
