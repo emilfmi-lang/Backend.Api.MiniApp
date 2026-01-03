@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Backend.MiniApp.Api.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDto",
+        "Type": "Backend.MiniApp.Api.Dtos.Users.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.MiniApp.Api.Controllers.EventsController",
     "Method": "GetAllEvents",
     "RelativePath": "api/Events",

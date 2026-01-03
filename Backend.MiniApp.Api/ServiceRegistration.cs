@@ -19,15 +19,6 @@ public static class ServiceRegistration
 
         services.AddScoped<IEventService, EventService>();
 
-        services.AddIdentity<AppUser, IdentityRole>(options =>
-        {
-            options.Password.RequireDigit = true;
-            options.Password.RequireLowercase = true;
-            options.Password.RequireUppercase = true;
-            options.Password.RequireNonAlphanumeric = false;
-            options.Password.RequiredLength = 6;
-        }).AddEntityFrameworkStores<AppDbContext>();
-
         services.AddScoped<IOrganizerService, OrganizerService>();
         services.AddScoped<ITicketService,TicketService >();
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
