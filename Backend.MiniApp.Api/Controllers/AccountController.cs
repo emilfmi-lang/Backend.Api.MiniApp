@@ -38,15 +38,15 @@ public class AccountController(UserManager<AppUser> manager, RoleManager<Identit
         var roles = await manager.GetRolesAsync(user);
         List<Claim> claims = new()
         {
-            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new Claim(ClaimTypes.Name, user.UserName)
         };
         claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JwtSettings: SecretKey"]));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JwtSettings:SecretKey"]));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
         var token = new JwtSecurityToken(
             issuer: config["JwtSettings : Issuer"],
-            audience: config["JwtSettings : Audinece"],
+            audience: config["JwtSettings : Audience"],
             claims: claims,
             expires: DateTime.Now.AddMinutes(30),
             signingCredentials: creds
