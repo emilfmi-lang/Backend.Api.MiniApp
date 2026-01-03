@@ -14,5 +14,4 @@ public interface IEventService
     Task<TicketReturnDto> CreateTicketAsync(int eventId, TicketCreateDto dto);
     Task UploadBannerrAsync(int eventId, IFormFile file);
     Task Delete(int eventId);
-
 }
