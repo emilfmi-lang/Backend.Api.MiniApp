@@ -31,6 +31,14 @@ public static class ServiceRegistration
         services.AddScoped<IOrganizerService, OrganizerService>();
         services.AddScoped<ITicketService,TicketService >();
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        services.AddIdentity<AppUser, IdentityRole>(opt => 
+        {
+            opt.Password.RequireDigit = true;
+            opt.Password.RequireLowercase = true;
+            opt.Password.RequireUppercase = true;
+            opt.Password.RequireNonAlphanumeric = false;
+            opt.Password.RequiredLength = 6;
+        }).AddEntityFrameworkStores<AppDbContext>();
         services.AddAutoMapper(opt =>
         {
             opt.AddProfile<MapProfile>();

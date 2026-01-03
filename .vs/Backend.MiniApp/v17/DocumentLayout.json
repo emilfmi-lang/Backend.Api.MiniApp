@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\backend.miniapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\backend.miniapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\data\\migrations\\20251229120808_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\data\\migrations\\20251229120808_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +15,32 @@
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\backend.miniapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\backend.miniapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\data\\migrations\\20251229120808_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\data\\migrations\\20251229120808_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\services\\organizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\services\\organizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|solutionrelative:backend.miniapp.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC94C4A-0FB6-499F-A60B-07525B53FD60}|Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj|c:\\users\\user\\desktop\\bckend.miniapp.api\\backend.miniapp\\backend.miniapp.api\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,61 +177,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Enums\\OrderStatus.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Enums\\OrderStatus.cs",
               "RelativeToolTip": "Backend.MiniApp.Api\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T05:46:36.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Backend.MiniApp.Api",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T05:45:55.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IOrganizerService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T13:33:19.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Program.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T10:36:06.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrganizerService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Services\\OrganizerService.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Services\\OrganizerService.cs",
@@ -255,58 +218,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Backend.MiniApp.Api\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T10:41:38.091Z"
+              "WhenOpened": "2025-12-29T10:41:38.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\ServiceRegistration.cs",
               "RelativeToolTip": "Backend.MiniApp.Api\\ServiceRegistration.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T11:10:24.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20251229120808_mig_2.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:08:09.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\Orders.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Models\\Orders.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\Orders.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Models\\Orders.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\AppUser.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T07:44:51.474Z",
+              "WhenOpened": "2026-01-01T07:47:17.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "Backend.MiniApp.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Backend.MiniApp.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-02T05:45:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Models\\Event.cs",
@@ -314,19 +278,56 @@
               "RelativeToolTip": "Backend.MiniApp.Api\\Models\\Event.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T10:40:58.764Z"
+              "WhenOpened": "2025-12-29T10:40:58.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Program.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:36:06.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrganizerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Interfaces\\IOrganizerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T13:33:19.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251229120808_mig_2.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Data\\Migrations\\20251229120808_mig_2.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T12:08:09.313Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\AppUser.cs",
-              "RelativeToolTip": "Backend.MiniApp.Api\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Models\\Orders.cs",
+              "RelativeToolTip": "Backend.MiniApp.Api\\Models\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T07:47:17.82Z"
+              "WhenOpened": "2026-01-01T07:44:51.474Z"
             },
             {
               "$type": "Document",
@@ -354,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Bckend.MiniApp.Api\\Backend.MiniApp\\Backend.MiniApp.Api\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Backend.MiniApp.Api\\Repositories\\Interfaces\\IGenericRepository.cs",
