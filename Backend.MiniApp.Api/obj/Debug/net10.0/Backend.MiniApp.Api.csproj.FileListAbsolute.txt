@@ -122,7 +122,6 @@ C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\Backend..91424066.Up2Date
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\Backend.MiniApp.Api.dll
 C:\Users\User\Desktop\Bckend.MiniApp.Api\Backend.MiniApp\Backend.MiniApp.Api\obj\Debug\net10.0\refint\Backend.MiniApp.Api.dll

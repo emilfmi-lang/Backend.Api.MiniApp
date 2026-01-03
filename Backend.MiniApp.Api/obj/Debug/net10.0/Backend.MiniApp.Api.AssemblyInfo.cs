@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend.MiniApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e6487eb6ee37c759348877d15879642aa53b75e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19048bfbcf8f3de3d3ed88ecff5833a793cf433c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend.MiniApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend.MiniApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,78 @@
+﻿using Backend.MiniApp.Api.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace Backend.MiniApp.Api.Data;
+
+public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<AppUser>(options)
+{
+    public DbSet<Event> Events { get; set; }
+    public DbSet<Organizer> Organizers { get; set; }
+    public DbSet<Ticket> Tickets { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+
+        base.OnModelCreating(modelBuilder);
+
+        // Seed Roles
+        var adminRole = new IdentityRole { Id = "1", Name = "Admin", NormalizedName = "ADMIN" };
+        var organizerRole = new IdentityRole { Id = "2", Name = "Organizer", NormalizedName = "ORGANIZER" };
+        var userRole = new IdentityRole { Id = "3", Name = "User", NormalizedName = "USER" };
+
+        modelBuilder.Entity<IdentityRole>().HasData(adminRole, organizerRole, userRole);
+
+        // Seed Users
+        var passwordHasher = new PasswordHasher<AppUser>();
+
+        var adminUser = new AppUser
+        {
+            Id = "user-1",
+            UserName = "admin",
+            NormalizedUserName = "ADMIN",
+            Email = "admin@example.com",
+            NormalizedEmail = "ADMIN@EXAMPLE.COM",
+            EmailConfirmed = true,
+            FullName = "Administrator",
+            SecurityStamp = Guid.NewGuid().ToString("D")
+        };
+        adminUser.PasswordHash = passwordHasher.HashPassword(adminUser, "Admin@123");
+
+        var organizerUser = new AppUser
+        {
+            Id = "user-2",
+            UserName = "organizer",
+            NormalizedUserName = "ORGANIZER",
+            Email = "organizer@example.com",
+            NormalizedEmail = "ORGANIZER@EXAMPLE.COM",
+            EmailConfirmed = true,
+            FullName = "Event Organizer",
+            SecurityStamp = Guid.NewGuid().ToString("D")
+        };
+        organizerUser.PasswordHash = passwordHasher.HashPassword(organizerUser, "Organizer@123");
+
+        var normalUser = new AppUser
+        {
+            Id = "user-3",
+            UserName = "user",
+            NormalizedUserName = "USER",
+            Email = "user@example.com",
+            NormalizedEmail = "USER@EXAMPLE.COM",
+            EmailConfirmed = true,
+            FullName = "Regular User",
+            SecurityStamp = Guid.NewGuid().ToString("D")
+        };
+        normalUser.PasswordHash = passwordHasher.HashPassword(normalUser, "User@123");
+
+        modelBuilder.Entity<AppUser>().HasData(adminUser, organizerUser, normalUser);
+
+        // Seed User Roles
+        modelBuilder.Entity<IdentityUserRole<string>>().HasData(
+            new IdentityUserRole<string> { UserId = "user-1", RoleId = "1" },
+            new IdentityUserRole<string> { UserId = "user-2", RoleId = "2" },
+            new IdentityUserRole<string> { UserId = "user-3", RoleId = "3" }
+        );
+    }
+}
