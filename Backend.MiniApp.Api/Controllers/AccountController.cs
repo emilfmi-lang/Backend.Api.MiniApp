@@ -2,6 +2,7 @@
 using Backend.MiniApp.Api.Dtos.Users;
 using Backend.MiniApp.Api.Interfaces;
 using Backend.MiniApp.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -38,5 +39,11 @@ public class AccountController(UserManager<AppUser> manager, RoleManager<Identit
             return Conflict("Invalid username or password.");
         var roles = await manager.GetRolesAsync(user);
         return Ok(jwtService.GenerateTokenAsync(user, roles));
+    }
+    [HttpGet("profile")]
+    public async Task<IActionResult> GetProfile()
+    {
+        var user = await manager.FindByNameAsync(User.Identity.Name);
+        return Ok(user);
     }
 }
