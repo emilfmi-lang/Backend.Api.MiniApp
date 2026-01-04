@@ -55,12 +55,12 @@ public static class ServiceRegistration
 
         ValidIssuer = configuration["JwtSettings : Issuer"],
         ValidAudience = configuration["JwtSettings : Audience"],
+        ClockSkew = TimeSpan.Zero,
 
         IssuerSigningKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes("SUPER_SECRET_KEY_123456789")
         )
     };
 });
-        services.AddAuthorization();
     }   
 }

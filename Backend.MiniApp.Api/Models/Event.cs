@@ -12,4 +12,5 @@ public class Event : BaseEntity
     public List<Ticket> Tickets { get; set; }
     public int OrganizerId { get; set; }
     public Organizer Organizer { get; set; }
+    public List<EventPerformer> EventPerformers { get; set; }
 }
